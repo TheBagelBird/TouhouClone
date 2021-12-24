@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rB;
     public InputActionAsset actions;
 
-    public GameObject playerbullet;
+    public GameObject player;
+
+    public GameObject playerBullet;
 
     //The move point, basically where the player will go, it's also used to check for obstacles in the "Stop Movement" Layer
     [SerializeField]
@@ -22,6 +24,8 @@ public class PlayerController : MonoBehaviour
         actions = GetComponent<PlayerInput>().actions;
         //remove the move point from the player cause I only did that for the sake of organization
         movePoint.parent = null;
+
+        player = GameObject.Find("Player");
     }
 
     //Does code every frame basically
@@ -62,7 +66,8 @@ public class PlayerController : MonoBehaviour
     //will fire when I press the button to fire
     void OnPewPew()
     {
-        Instantiate(playerbullet);
+        Instantiate(playerBullet, player.transform);
+
     }
 
 }

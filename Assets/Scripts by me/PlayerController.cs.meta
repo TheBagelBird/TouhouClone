@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 92a5044bd76e0fe43a8ea5be1e33bbfe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rB: {instanceID: 0}
+  - actions: {fileID: -944628639613478452, guid: 406ef964cc5f57646a5e824a69ba2ddc, type: 3}
+  - Player: {fileID: 1561865584952965643, guid: 8a9ba12a334d25d498b91b066ae5c8a1, type: 3}
+  - playerbullet: {fileID: 2000916904831901185, guid: 65fc3f5e218ea8b489ee9df4334a0e02, type: 3}
+  - movePoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

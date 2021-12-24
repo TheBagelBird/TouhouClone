@@ -40,7 +40,7 @@ public class @PlayerMovement : IInputActionCollection, IDisposable
                     ""id"": ""16566e86-c903-47a7-87b5-b0e1042dd783"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": ""Normalize"",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Slowing Down"",
@@ -168,7 +168,7 @@ public class @PlayerMovement : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/z"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard"",
                     ""action"": ""Bomb"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -190,7 +190,7 @@ public class @PlayerMovement : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard"",
                     ""action"": ""Slowing Down"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
