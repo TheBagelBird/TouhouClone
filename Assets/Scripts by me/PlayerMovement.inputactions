@@ -11,7 +11,8 @@
                     "id": "e03c18de-e8d4-4b61-bc30-0dfc5549157b",
                     "expectedControlType": "Button",
                     "processors": "Normalize(min=1,max=1)",
-                    "interactions": "Press"
+                    "interactions": "Press",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Bomb",
@@ -19,23 +20,26 @@
                     "id": "6bedce90-c5f1-452b-8fb9-146ce4ba57be",
                     "expectedControlType": "Button",
                     "processors": "Normalize",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "PewPew",
                     "type": "Button",
                     "id": "16566e86-c903-47a7-87b5-b0e1042dd783",
                     "expectedControlType": "Button",
-                    "processors": "Normalize",
-                    "interactions": "Press"
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Slowing Down",
                     "type": "Button",
                     "id": "47ce29cd-cb76-437e-88b0-3cec9d9c98fc",
                     "expectedControlType": "Button",
-                    "processors": "Normalize",
-                    "interactions": ""
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [

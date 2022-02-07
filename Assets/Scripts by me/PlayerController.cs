@@ -70,4 +70,9 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    void OnSlowingDown()
+    {
+        moveSpeed = moveSpeed / 2;
+    }
+
 }

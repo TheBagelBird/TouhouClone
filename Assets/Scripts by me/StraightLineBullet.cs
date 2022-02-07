@@ -6,6 +6,7 @@ public class StraightLineBullet : MonoBehaviour
 {
     public Transform playerBullet;
     public float bulletSpeed;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,11 @@ public class StraightLineBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerBullet.Translate(new Vector2(0,1) * bulletSpeed * Time.deltaTime);
+        playerBullet.Translate(new Vector2(1, 0) * bulletSpeed * Time.deltaTime);
+
+        if (playerBullet.position.x > 30)
+        {
+            // Destroy( );
+        }
     }
 }
